@@ -49,3 +49,38 @@ writeInsects(insects);
 // ##########################################################
 // END DO NOT CHANGE ZONE
 // ##########################################################
+
+var insects = [
+  {
+    name: 'Ant Nest Beetle',
+    image: 'ant-nest-beetle.jpg',
+    family: 'Carabidae',
+    min. size: '6',
+    max. size: '20',
+    eat: 'insects',
+  },
+  {
+    name: 'Dung Beetle',
+    image: 'dung-beetle.jpg',
+    family: 'Scarabidae',
+    min. size: '20',
+    max. size: '30',
+    eat: 'dung',
+  },
+  {
+    name: 'Stag Beetle',
+    image: 'stag-beetle.jpg',
+    family: 'Lucanidae',
+    min. size: '5',
+    max. size: '120',
+    eat: 'plants',
+  },
+  {
+    name: 'Tortoise Beetle',
+    image: 'tortoise-beetle.jpg',
+    family: 'Cassidinae',
+    min. size: '1',
+    max. size: '18',
+    eat: 'plants',
+  }
+]
