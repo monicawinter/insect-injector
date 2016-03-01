@@ -1,30 +1,46 @@
 // Create your variable here, name it `insects`
 
 var insects = [{
-    name: 'Ant Nest Beetle',
-    img: 'ant-nest-beetle.jpg',
-    family: 'Carabidae',
-    size: [6, 20],
-    food: 'insects',
-  }, {
-    name: 'Dung Beetle',
-    img: 'dung-beetle.jpg',
-    family: 'Scarabidae',
-    size: [20, 30],
-    food: 'dung',
-  }, {
-    name: 'Stag Beetle',
-    img: 'stag-beetle.jpg',
-    family: 'Lucanidae',
-    size: [5, 120],
-    food: 'plants',
-  }, {
-    name: 'Tortoise Beetle',
-    img: 'tortoise-beetle.jpg',
-    family: 'Cassidinae',
-    size: [1, 18],
-    food: 'plants',
-  }];
+  name: 'Ant Nest Beetle',
+  img: 'ant-nest-beetle.jpg',
+  family: 'Carabidae',
+  size: [6, 20],
+  food: {
+    eatsInsects: true,
+    eatsDung: false,
+    eatsPlants: false,
+  }
+}, {
+  name: 'Dung Beetle',
+  img: 'dung-beetle.jpg',
+  family: 'Scarabidae',
+  size: [20, 30],
+  food: {
+    eatsInsects: false,
+    eatsDung: true,
+    eatsPlants: false,
+  }
+}, {
+  name: 'Stag Beetle',
+  img: 'stag-beetle.jpg',
+  family: 'Lucanidae',
+  size: [5, 120],
+  food: {
+    eatsInsects: false,
+    eatsDung: false,
+    eatsPlants: true,
+  }
+}, {
+  name: 'Tortoise Beetle',
+  img: 'tortoise-beetle.jpg',
+  family: 'Cassidinae',
+  size: [1, 18],
+  food: {
+    eatsInsects: false,
+    eatsDung: false,
+    eatsPlants: true,
+  }
+}];
 
 // ##########################################################
 // START DO NOT CHANGE ZONE
