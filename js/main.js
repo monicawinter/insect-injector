@@ -1,5 +1,30 @@
 // Create your variable here, name it `insects`
 
+var insects = [{
+    name: 'Ant Nest Beetle',
+    img: 'ant-nest-beetle.jpg',
+    family: 'Carabidae',
+    size: [6, 20],
+    food: 'insects',
+  }, {
+    name: 'Dung Beetle',
+    img: 'dung-beetle.jpg',
+    family: 'Scarabidae',
+    size: [20, 30],
+    food: 'dung',
+  }, {
+    name: 'Stag Beetle',
+    img: 'stag-beetle.jpg',
+    family: 'Lucanidae',
+    size: [5, 120],
+    food: 'plants',
+  }, {
+    name: 'Tortoise Beetle',
+    img: 'tortoise-beetle.jpg',
+    family: 'Cassidinae',
+    size: [1, 18],
+    food: 'plants',
+  }];
 
 // ##########################################################
 // START DO NOT CHANGE ZONE
@@ -49,38 +74,3 @@ writeInsects(insects);
 // ##########################################################
 // END DO NOT CHANGE ZONE
 // ##########################################################
-
-var insects = [
-  {
-    name: 'Ant Nest Beetle',
-    image: 'ant-nest-beetle.jpg',
-    family: 'Carabidae',
-    min. size: '6',
-    max. size: '20',
-    eat: 'insects',
-  },
-  {
-    name: 'Dung Beetle',
-    image: 'dung-beetle.jpg',
-    family: 'Scarabidae',
-    min. size: '20',
-    max. size: '30',
-    eat: 'dung',
-  },
-  {
-    name: 'Stag Beetle',
-    image: 'stag-beetle.jpg',
-    family: 'Lucanidae',
-    min. size: '5',
-    max. size: '120',
-    eat: 'plants',
-  },
-  {
-    name: 'Tortoise Beetle',
-    image: 'tortoise-beetle.jpg',
-    family: 'Cassidinae',
-    min. size: '1',
-    max. size: '18',
-    eat: 'plants',
-  }
-]
